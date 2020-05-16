@@ -1,0 +1,45 @@
+2020-05-17 03:09:40,584 ERROR 20028 [-/127.0.0.1/-/17ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\frank\Desktop\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\frank\Desktop\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\frank\Desktop\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\frank\Desktop\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 20028
+hostname: LAPTOP-B6B88V6F
+
+2020-05-17 03:17:24,907 ERROR 18380 [-/127.0.0.1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\frank\Desktop\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\frank\Desktop\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\frank\Desktop\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\frank\Desktop\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 18380
+hostname: LAPTOP-B6B88V6F
+
+2020-05-17 03:19:18,648 ERROR 15072 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\frank\Desktop\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\frank\Desktop\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\frank\Desktop\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\frank\Desktop\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\frank\Desktop\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 15072
+hostname: LAPTOP-B6B88V6F
+
